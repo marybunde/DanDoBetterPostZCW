@@ -154,7 +154,10 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Integer divide(int dividend, int divisor) {
-        return null;
+        int div;
+        div = dividend / divisor;
+
+        return div;
     }
 
     /**
@@ -163,7 +166,10 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Long divide(long dividend, long divisor) {
-        return null;
+        long div;
+        div = dividend/divisor;
+
+        return div;
     }
 
     /**
@@ -172,7 +178,10 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
+        short div;
+        div =(short) (dividend/divisor);
+
+        return div;
     }
 
     /**
@@ -181,7 +190,9 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+        byte div;
+        div =(byte) (dividend/divisor);
+        return div;
     }
 
     /**
@@ -190,7 +201,10 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divide(float dividend, float divisor) {
-        return null;
+        float div;
+        div = dividend/divisor;
+
+        return div;
     }
 
     /**
@@ -199,7 +213,10 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Double divide(double dividend, double divisor) {
-        return null;
+        double div;
+        div = dividend/divisor;
+
+        return div;
     }
 
 
