@@ -8,8 +8,10 @@ public class StringUtilities {
      * @return `Hello World` as a string
      */
     public static String getHelloWorld() {
+        String ans;
+        ans = "Hello World";
 
-        return null;
+        return ans;
     }
 
     /**
@@ -18,7 +20,10 @@ public class StringUtilities {
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
     public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+        String ans;
+        ans = firstSegment + secondSegment;
+
+        return ans;
     }
 
     /**
@@ -27,7 +32,10 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment){
-        return null;
+        String ans;
+        ans = firstSegment + secondSegment;
+
+        return ans;
     }
 
     /**
@@ -35,6 +43,8 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
+        String ans;
+
         return null;
     }
 
